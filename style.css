@@ -1,6 +1,41 @@
+/* Body */
+body{
+    margin: 5px;
+    padding: 0px;
+}
+
+/* Left-Container */
+.left{
+    width: 200px;
+}
+/* Logo */
+
+.logo  {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+.logo h1 {
+    margin: 0;
+}
+
+.logo{
+    color: white;
+}
+
 /* Menu - Bar */
+.menu-list{ 
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+
+.menu-list{
+    padding: 0;
+}
 .menu-list li{
  list-style: none;
+ text-align: center;
 }
 
 .menu-list a{
@@ -8,12 +43,6 @@
     text-decoration: none;
 }
 
-.menu-list a:focus{
-    border: 1px solid black;
-}
-
-.menu-list{ 
-    display: grid;
-    grid-template-rows: 1fr;
-    gap: 30px;
+.left {
+    background-color: #2d53da;
 }
