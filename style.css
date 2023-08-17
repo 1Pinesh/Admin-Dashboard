@@ -1,0 +1,19 @@
+/* Menu - Bar */
+.menu-list li{
+ list-style: none;
+}
+
+.menu-list a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-list a:focus{
+    border: 1px solid black;
+}
+
+.menu-list{ 
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
