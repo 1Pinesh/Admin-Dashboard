@@ -8,10 +8,6 @@
     text-decoration: none;
 }
 
-.menu-list a:focus{
-    border: 1px solid black;
-}
-
 .menu-list{ 
     display: grid;
     grid-template-rows: 1fr;
