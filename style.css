@@ -54,7 +54,16 @@ body{
     background-color: #2d53da;
 }
 
+/* Search Container */
+.search-con{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Search Icon */
 #sicon{
-    width: 50px;
+    width: 25px;
 }
+
