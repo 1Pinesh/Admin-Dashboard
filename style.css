@@ -3,6 +3,13 @@ body{
     margin: 5px;
     padding: 0px;
 }
+/* Admin-Container */
+.admin-dashboard-con{
+    display: grid;
+    grid-template-columns:max-content 1fr;
+    gap: 0px;
+}
+
 
 /* Left-Container */
 .left{
