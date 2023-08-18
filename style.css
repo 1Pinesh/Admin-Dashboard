@@ -47,6 +47,7 @@ body{
     background-color: #2d53da;
 }
 
-img {
-    background-color: red;
+/* Search Icon */
+#sicon{
+    width: 50px;
 }
