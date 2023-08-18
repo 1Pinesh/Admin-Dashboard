@@ -159,6 +159,10 @@ body{
     grid-template-columns: 8em 1fr;
 }
 
+.profile-detail{
+    display: grid;
+    justify-content: start;
+}
 .profile-detail h2{
     margin-top: 15px;
 }
