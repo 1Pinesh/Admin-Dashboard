@@ -46,3 +46,7 @@ body{
 .left {
     background-color: #2d53da;
 }
+
+img {
+    background-color: red;
+}
