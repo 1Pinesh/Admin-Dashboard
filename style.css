@@ -15,7 +15,7 @@ body{
 /* Top */
 .top{
     display: grid;
-    grid-template-columns: 20em 15em  25em;
+    grid-template-columns: 20em 35em  25em;
 }
 
 /* Left-Container */
@@ -151,4 +151,14 @@ body{
     height: 75px;
     padding: 5px;
     border-radius: 50%;
+}
+
+/* Profile - con */
+.profile-con {
+    display: grid;
+    grid-template-columns: 8em 1fr;
+}
+
+.profile-detail h2{
+    margin-top: 15px;
 }
