@@ -12,6 +12,12 @@ body{
 }
 
 
+/* Top */
+.top{
+    display: grid;
+    grid-template-columns: 20em 35em  25em;
+}
+
 /* Left-Container */
 .left{
     width: 200px;
@@ -62,6 +68,7 @@ body{
     grid-template-columns: max-content 1fr;
     justify-content: center;
     align-items: center;
+    height: 40px;
 }
 .search-con{
     background-color: #fefefe;
@@ -98,4 +105,64 @@ body{
     padding-left: 10px;
 }
 
+/* Notification Icon */
+.icon-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: #fefefe;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #2d53da;
+  }
+  
+  .icon-button:hover {
+    cursor: pointer;
+  }
+  
+  .icon-button:active {
+    background: #cccccc;
+  }
+  
+  .icon-button__badge {
+    position: absolute;
+    top: 25px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
 
+/* Cat photo */
+.cat_Img{
+    background-color: #1dcef5;
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* Profile - con */
+.profile-con {
+    display: grid;
+    grid-template-columns: 8em 1fr;
+}
+
+.profile-detail{
+    display: grid;
+    justify-content: start;
+}
+.profile-detail h2{
+    margin-top: 15px;
+}
