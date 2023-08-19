@@ -160,7 +160,8 @@ body{
     display: grid;
     justify-content: end;
     grid-template-columns: 5em 0;
-    padding-right: 120px;
+    padding-right: 70px;
+    margin-right: 20px;
 }
 
 .profile-detail{
@@ -170,4 +171,85 @@ body{
 .profile-detail h2{
     margin-top: 0px;
     margin-bottom: 6px;
+}
+
+/* Top underside - container */
+
+.top-underside{
+    display: grid;
+    grid-template-columns: 120fr 200px;
+    align-items: center;
+    justify-content: left;
+}
+
+.top-underside{
+    box-shadow: 0px 12px 0px 0px rgba(0, 0, 255, .2);
+}
+
+
+/* Top Underside Profile */
+.welcome-profile{
+    display: grid;
+    grid-template-columns: 1fr 56em;
+    padding-right: 50px;
+}
+
+.welcome-profile img {
+    background-color: #1dcef5;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #2d53da;
+    margin-left: 10px;
+}
+
+.profile-info h2{
+    margin-top: 30px;   
+    margin-bottom: 10px;
+}
+
+.profile-info span {
+    font-weight: 800;
+}
+
+/* Three button container */
+
+.three-button{
+    justify-content: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    margin-right: 60px;
+}
+
+.three-button div{
+    display: grid;
+    grid-template-columns: 6em ;
+    width: fit-content;
+    height: 4em;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.three-button div:focus{
+
+    background-color: black;
+}
+
+.three-button div{
+   border-style: groove;
+}
+
+
+.three-button button {
+    background:none;
+    border:none;
+}
+
+.three-button span {
+    display: grid;
+    justify-content: center;
 }
