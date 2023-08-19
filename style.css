@@ -262,7 +262,8 @@ body{
 }
 
 .project-title div{ 
-    display: grid;
+  display: grid;
   justify-content: end;
   padding-right: 60px;
 }
+
