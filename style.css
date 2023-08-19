@@ -205,3 +205,38 @@ body{
 .profile-info span {
     font-weight: 800;
 }
+
+/* Three button container */
+
+.three-button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.three-button div{
+    display: grid;
+    grid-template-columns: 6em ;
+    width: fit-content;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.three-button div:focus{
+
+    background-color: black;
+}
+
+.three-button div{
+   border-style: groove;
+}
+
+
+.three-button button {
+    background:none;
+    border:none;
+}
+
+.three-button span {
+    display: grid;
+    justify-content: center;
+}
