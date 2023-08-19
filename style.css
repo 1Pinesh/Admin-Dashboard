@@ -253,3 +253,16 @@ body{
     display: grid;
     justify-content: center;
 }
+
+/* Project title */
+.project-title{
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-title div{ 
+    display: grid;
+  justify-content: end;
+  padding-right: 60px;
+}
