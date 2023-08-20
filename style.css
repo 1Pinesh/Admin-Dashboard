@@ -253,3 +253,55 @@ body{
     display: grid;
     justify-content: center;
 }
+
+/* Project title */
+.project-title{
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-title div{ 
+  display: grid;
+  justify-content: end;
+  padding-right: 60px;
+}
+/* Project Container */
+.project-container{
+    margin-left:10px ;
+    width: 60em;
+    height: 430px;
+    gap: 10px;
+    scroll-behavior:scroll;
+}
+
+.project-container{
+    overflow: auto;
+}
+
+
+.project-container{
+   display: grid;
+   grid-template-columns: 1fr 350px;
+}
+
+/* Project card */
+.project-card{
+    width: 20em;
+    border: 2px solid #2d53da;
+
+}
+
+.project-card div{
+    display: grid;
+    grid-template-columns: 1em 1em 2em;
+    gap: 10px;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+/* Project-card title */
+.title{
+    text-align: center;
+    align-items: center;
+}
