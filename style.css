@@ -335,3 +335,25 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     }
+
+    /*Comment con */
+    .comment-con{
+        margin-top: 14px;
+        border: 1px solid yellow;
+    }
+
+    /* Comment card */
+    .comment-card{
+        display: grid;
+        grid-template-columns: 2em 213px;
+        border: 1px solid  red;
+        margin-top: 10px;
+    }
+
+    .profile{
+        padding-top: 7px;
+    }
+
+    .comment{
+        font-size: 9px;
+    }
