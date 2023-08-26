@@ -1,8 +1,8 @@
 /* Body */
 body{
-    margin: 5px;
+    margin: 2px;
     padding: 0px;
-    background-color: #f2f5fd;
+    background-color: rgb(242,245,253);
     }
     /* Admin-Container */
     .admin-dashboard-con{
@@ -29,8 +29,15 @@ body{
     justify-content: center;
     align-items: center;
     }
+
+    .sync{
+        font-size: 25px;
+        font-weight: 800;
+    }
+
     .logo h1 {
     margin: 0;
+    padding-bottom: 10px;
     }
     
     .logo{
@@ -47,18 +54,52 @@ body{
     .menu-list{
     padding: 0;
     }
+    
     .menu-list li{
     list-style: none;
     text-align: center;
     }
+
+    li:nth-child(6n) {
+        padding-top: 270px;
+    }           
     
     .menu-list a{
-    color: black;
+    color: white;
+    font-weight: 600;
     text-decoration: none;
     }
     
     .left {
     background-color: #2d53da;
+    }
+
+    li a {
+        color: white;
+    }
+
+    .menu-list a:hover{
+        transition: 0.2s ease-in;
+        color: blue;
+        font-weight: 800;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 40px;
+        padding-right:40px ;
+    }
+    
+    li a:focus {
+        transition: 0.2s ease-in;
+        color: blue;
+        font-weight: 800;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 40px;
+        padding-right:40px ;
     }
     
     /* Search Container */
@@ -69,6 +110,7 @@ body{
     align-items: center;
     height: 40px;
     }
+    
     .search-con{
     background-color: #fefefe;
     width: fit-content;
@@ -174,6 +216,7 @@ body{
     .top-underside{
     display: grid;
     grid-template-columns: 120fr 200px;
+    margin-bottom: 14px ;
     align-items: center;
     justify-content: left;
     }
@@ -260,6 +303,7 @@ body{
     display: grid;
     margin-left: 10px;
     grid-template-columns: 1fr 1fr;
+    background-color: rgb(242,245,253);
     }
     
     .project-title div{ 
@@ -274,6 +318,7 @@ body{
     gap: 10px;
     scroll-behavior:scroll;
     margin: 0;
+    background-color: rgb(242,245,253);
     }
     
     .project-container{
@@ -288,8 +333,7 @@ body{
     /* Project card */
     .project-card{
     width: 20em;
-    border: 2px solid #2d53da;
-    
+    border:1px solid #cccccc;
     }
     
     .project-card div{
@@ -357,3 +401,7 @@ body{
     .comment{
         font-size: 9px;
     }
+
+   
+
+    
