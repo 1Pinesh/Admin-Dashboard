@@ -233,7 +233,7 @@ body{
     /* Top Underside Profile */
     .welcome-profile{
     display: grid;
-    grid-template-columns: 1fr 56em;
+    grid-template-columns: 1fr 100fr;
     padding-right: 50px;
     }
     
@@ -248,9 +248,15 @@ body{
     margin-left: 10px;
     }
     
+    .profile-info{
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+
     .profile-info h2{
     margin-top: 30px; 
     margin-bottom: 10px;
+    
     }
     
     .profile-info span {
@@ -324,7 +330,11 @@ body{
     gap: 10px;
     scroll-behavior:scroll;
     margin: 0;
+    border: 2px solid #1dcef5;
+    border-radius: 5px;
     background-color: rgb(242,245,253);
+    padding-left: 10px;
+    padding-top:10px ;
     }
     
     .project-container{
@@ -340,6 +350,7 @@ body{
     .project-card{
     width: 20em;
     border:1px solid #cccccc;
+    border-radius: 10px;
     }
     
     .project-card div{
