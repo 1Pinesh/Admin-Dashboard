@@ -2,7 +2,7 @@
 body{
     margin: 2px;
     padding: 0px;
-    background-color: rgb(242,245,253);
+    background-color: rgb(242,245,253); 
     }
     /* Admin-Container */
     .admin-dashboard-con{
@@ -21,6 +21,11 @@ body{
     .left{
     width: 200px;
     height: 100%;
+    }
+
+    .left{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:10px ;
     }
     /* Logo */
     
@@ -110,7 +115,7 @@ body{
     align-items: center;
     height: 40px;
     }
-    
+
     .search-con{
     background-color: #fefefe;
     width: fit-content;
@@ -311,10 +316,11 @@ body{
     justify-content: end;
     padding-right: 110px;
     }
+
     /* Project Container */
     .project-container{
     width: 60em;
-    height: 430px;
+    height: 400px;
     gap: 10px;
     scroll-behavior:scroll;
     margin: 0;
@@ -354,11 +360,14 @@ body{
     .announcement-container{
     width: 250px;
     margin-left: 40px;
+    height: fit-content;
+    background-color: #1dcef5;
+    border-radius: 10px;
+    padding: 2px;
     }
     
     /* Annocement- cards */
     .accouncement-card{
-    border: 1px solid #2d53da;
     height: 15em;
     }
     
@@ -367,6 +376,9 @@ body{
     border: 1px solid gray;
     margin-bottom: 5px;
     margin-top: 2px;
+    background-color: white;
+    border-radius: 10px;
+    
     }
     .aTitle h6{
     text-align: center;
@@ -383,14 +395,15 @@ body{
     /*Comment con */
     .comment-con{
         margin-top: 14px;
-        border: 1px solid yellow;
     }
 
     /* Comment card */
     .comment-card{
         display: grid;
         grid-template-columns: 2em 213px;
-        border: 1px solid  red;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 10px;
         margin-top: 10px;
     }
 
