@@ -1,6 +1,6 @@
 /* Body */
 body {
-  margin: 2px;
+  margin-top: 2px;
   padding: 0px;
   background-color: rgb(242, 245, 253);
 }
@@ -9,10 +9,14 @@ body {
   display: grid;
   grid-template-columns: max-content 1fr;
   gap: 0px;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 /* Top */
 .top {
+  margin-top: 4px;
   display: grid;
   grid-template-columns: 20em 35em 25em;
 }
@@ -66,7 +70,7 @@ body {
 }
 
 li:nth-child(6n) {
-  padding-top: 270px;
+  padding-top: 220px;
 }
 
 .menu-list a {
@@ -105,6 +109,24 @@ li a:focus {
   padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+/* Menu-bar icons */
+.menu-bar-icon {
+  position: relative;
+  top: 20%;
+}
+.menu-list li:nth-child(6):hover .menu-bar-icon.material-icons {
+  animation: round 1s normal;
+}
+
+@keyframes round {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Search Container */
@@ -149,6 +171,7 @@ li a:focus {
   outline: none;
   border-radius: 10px;
   padding-left: 10px;
+  width: 250px;
 }
 
 /* Notification Icon */
@@ -166,6 +189,7 @@ li a:focus {
   border-radius: 50%;
   border-style: groove;
   border-color: #2d53da;
+  margin-left: 10px;
 }
 .icon-button:hover {
   cursor: pointer;
@@ -321,6 +345,10 @@ li a:focus {
   padding-right: 110px;
 }
 
+.project-title h2 {
+  margin-top: 10px;
+}
+
 /* Project Container */
 .project-container {
   width: 60em;
@@ -337,6 +365,7 @@ li a:focus {
 
 .project-container {
   overflow: auto;
+  margin-bottom: 5px;
 }
 
 .project-container {
@@ -386,7 +415,7 @@ li a:focus {
   height: auto;
   background-color: #1dcef5;
   border-radius: 10px;
-  padding: 2px;
+  padding: 1px;
 }
 
 /* Annocement- cards */
