@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: max-content 1fr;
   gap: 0px;
-  width: auto;
+  width: min-content;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -294,7 +294,7 @@ li a:focus {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 
-  margin-right: 60px;
+  margin-right: 30px;
 }
 
 .three-button div {
@@ -304,10 +304,6 @@ li a:focus {
   height: 4em;
   align-items: center;
   border-radius: 10px;
-}
-
-.three-button div:focus {
-  background-color: black;
 }
 
 .three-button div {
@@ -322,6 +318,12 @@ li a:focus {
 .three-button span {
   display: grid;
   justify-content: center;
+}
+
+.three-button div:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 /* Main content-container */
@@ -342,7 +344,7 @@ li a:focus {
 .project-title div {
   display: grid;
   justify-content: end;
-  padding-right: 110px;
+  padding-right: 70px;
 }
 
 .project-title h2 {
@@ -391,15 +393,14 @@ li a:focus {
   padding-bottom: 10px;
 }
 
-.project-card a {
-  text-decoration: none;
-  color: black;
-}
-.project-card a:visited {
+.project-card a:link {
   text-decoration: none;
   color: black;
 }
 
+.project-card a:visited {
+  color: black;
+}
 .project-card a:hover {
   color: #1dcef5;
   transform: scale(1.2);
