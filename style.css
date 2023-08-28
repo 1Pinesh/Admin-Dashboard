@@ -378,6 +378,9 @@ li a:focus {
   width: 20em;
   border: 1px solid #cccccc;
   border-radius: 10px;
+  box-shadow: -10px 0px 2px #1dcef5;
+  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .project-card div {
